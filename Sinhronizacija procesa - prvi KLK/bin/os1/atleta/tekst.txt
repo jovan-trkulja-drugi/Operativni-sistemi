@@ -1,0 +1,4 @@
+Napraviti program koji simulira trening na atletskom stadionu.
+Na stadionu postoji jedna staza koju moze istovremeno koristiti max 5 ljudi
+Trener ne dozvoljava da se taj broj predje, pre nego sto pusti druge ljude da trce
+Svaki atleta istrci stazu u roku od 10 sekundi, i cim on zavrsi sledeci moze da krene

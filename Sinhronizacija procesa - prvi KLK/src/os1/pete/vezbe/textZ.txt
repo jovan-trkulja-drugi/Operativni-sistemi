@@ -1,0 +1,32 @@
+/*Implementirati simulaciju ispasa ovaca na jednom planinskom imanju u Srbiji.
+ * 
+ * Data je klasa Zivotinja koja predstavlja jednu zivotinju.
+ * 
+ * Implementirati klasu Ovca koja nasledjuje klasu Zivotinja.
+ * 
+ * Instance ove klase predstavljaju ovce kao zasebne niti izvrsavanja. Ovce tokom svog
+ * zivota pasu travu 2-3 sekunde na mestu na kojem se nalaze i onda se pomere na nasumicno
+ * izabrano jedno polje pored(levo, desno, gore ili dole) gde ponovo pasu, pa se ponovo pomere itd.
+ * sve dok ih neko ne prekine.
+ * 
+ * Posle pomeranja, ako se ovca nadje suvise daleko od centra imanja(ako metod getUdaljenost()
+ * vrati vrednost vecu od 100m), pocne da panici od straha da ce je vukovi pojesti i glasno 
+ * zove psa u pomoc. Ovca ce ostati skamenjena u mestu sve dok pas ne pocne da laje i svojim
+ * umirujucim lavezom pomogne ovci da se smiri i vrati na centar imanja gde ce normalno nastaviti
+ * svoje standardno ponasanje.
+ * 
+ * Implementirati klasu Pas koja nasledjuje klasu Zivotinja i realizuje ponasanje psa cuvara kao
+ * zasebnu nit izvrsavanja. Pas sve vreme drema dok ga neka ovca ne probudi svojim vapajima za
+ * pomoc. Posle ovoga, pas ce krenuti da laje dok se ovca ne vrati na centar imanja posle cega ce
+ * nastaviti dremku do sledeceg incidenta, itd.
+ * 
+ * Data je klasa Imanje koja graficki predstavlja pozicije svih zivotinja na imanju.
+ * Implementirati pozadinski proces koji dva puta u sekundi stampa stanje na imanju pomocu
+ * toString() metoda instance klase Imanje.
+ * 
+ * Implementirati glavni program koji pravi jedno imanje, 10 ovaca i jednog psa, pokrece
+ * sve procese koji predstavljaju zivotinje, kao i jedan pozadinski proces koji stampa stanje
+ * na imanju.
+ * 
+ * Posle ovoga, glavni proces ceka da korisnik pritisne enter, posle cega prekida sve procese
+ * i odmah zavrsava svoj rad.*/
